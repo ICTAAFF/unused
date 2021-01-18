@@ -1,0 +1,45 @@
+#progress {
+	margin-bottom:250px;
+	
+}
+#iammango {
+	font-family:"impact"
+	text-align:justify
+}
+
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+.heart {
+  font-size: 80px;
+  color: #FF3D67;
+  -webkit-animation: heart-beats .3s infinite alternate;
+  animation: heart-beats .3s infinite alternate;
+  transform-origin: center;
+}
+
+/* Animation Setting */
+@-webkit-keyframes heart-beats {
+  to { -webkit-transform: scale(1.1); }
+}
+@keyframes heart-beats {
+  to { transform: scale(1.1); }
+}
+
+/* Basic style */
+body {
+  text-align: center;
+}
+h1 {
+  font-family: 'Chewy', cursive;
+  margin-top: 0;
+  color: #FF9EB6;
+}
+
+#b{
+	text-align:justify
+}
+
+#water {
+  ...
+  margin: 0 auto;
+}
